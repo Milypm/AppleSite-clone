@@ -1,0 +1,48 @@
+* {
+
+  color: #fff;
+  font-family: "Lucida Grande", "Lucida Sans Unicode", Helvetica, Arial, Verdana, sans-serif;
+  box-sizing: border-box;
+}
+
+.background-img {
+  width: 100%;
+  height: 538px;
+  background: blueviolet;
+  background: url(assets/your-verse.jpg) 50% 100% no-repeat;
+  background-size: cover;
+  margin: 0;
+  padding: 0;
+}
+
+.nav-container {
+  display: flex;
+  margin: 20px auto;
+}
+
+.nav-item {
+  box-sizing: border-box;
+  width: 105.633px;
+  height: 36px;
+  border: solid 1px gray;
+}
+
+.nav-item p, .nav-item i {
+  text-align: center;
+}
+
+.grid-images {
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(1, 1fr);
+  grid-template-areas:
+    "one-img one-img one-img one-img";
+  grid-column-gap: 1px;
+}
+
+.one-img {
+  width: 364px;
+  height: 200px;
+}
+
