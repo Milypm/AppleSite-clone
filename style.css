@@ -5,18 +5,37 @@
 }
 
 body {
+  margin: 0;
+}
+
+main {
+  position: relative;
+  text-align: center;
   padding-top: 0;
   margin-top: 0;
   background: #fff;
   background-image: url(assets/your-verse.jpg);
-  background-position: 50% 85%;
+  background-position: 100% 100%;
+  height: 590px;
   background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.maintext {
+  position: relative;
+  top: 180px;
+
 
 }
 
 .nav-container {
   display: flex;
-
+  justify-content: center;
+  position: relative;
+  top: 90px;
+  width: 100%;
+  margin-right: auto;
+  margin-left: auto;
 }
 
 .nav-item {
@@ -56,17 +75,19 @@ body {
   margin-right: 5px;
 }
 
+.belowpics {
+}
+
 .grid-images {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   grid-template-rows: repeat(1, 1fr);
   grid-template-areas:
     "one-img one-img one-img one-img";
-  
+  grid-gap: 2px;
 }
 
 .one-img {
-  width: fit-content;
-  
+  width: 100%;
 }
 
