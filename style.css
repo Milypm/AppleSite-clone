@@ -1,48 +1,72 @@
 * {
-
   color: #fff;
   font-family: "Lucida Grande", "Lucida Sans Unicode", Helvetica, Arial, Verdana, sans-serif;
   box-sizing: border-box;
 }
 
-.background-img {
-  width: 100%;
-  height: 538px;
-  background: blueviolet;
-  background: url(assets/your-verse.jpg) 50% 100% no-repeat;
-  background-size: cover;
-  margin: 0;
-  padding: 0;
+body {
+  padding-top: 0;
+  margin-top: 0;
+  background: #fff;
+  background-image: url(assets/your-verse.jpg);
+  background-position: 50% 85%;
+  background-repeat: no-repeat;
+
 }
 
 .nav-container {
   display: flex;
-  margin: 20px auto;
+
 }
 
 .nav-item {
   box-sizing: border-box;
   width: 105.633px;
   height: 36px;
-  border: solid 1px gray;
+  border: solid 1px darkslategrey;
+  background: gray;
+  align-items: center;
 }
 
-.nav-item p, .nav-item i {
+.nav-item p {
   text-align: center;
 }
 
+.nav-item i {
+  margin: 10px auto;
+}
+
+.nav-search {
+  width: 125px;
+  height: 36px;
+}
+
+.search-form {
+  width: 103px;
+  height: 20%;
+  margin: 2px auto;
+  border-radius: 10px;
+  background: gray;
+}
+
+.input-cont i {
+  position: absolute;
+  margin-left: 7px;
+  margin-bottom: 5px;
+  margin-right: 5px;
+}
+
 .grid-images {
-  width: 100%;
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   grid-template-rows: repeat(1, 1fr);
   grid-template-areas:
     "one-img one-img one-img one-img";
-  grid-column-gap: 1px;
+  
 }
 
 .one-img {
-  width: 364px;
-  height: 200px;
+  width: fit-content;
+  
 }
 
