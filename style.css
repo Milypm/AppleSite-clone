@@ -4,10 +4,6 @@
   box-sizing: border-box;
 }
 
-body {
-  margin: 0;
-}
-
 main {
   position: relative;
   text-align: center;
@@ -21,11 +17,36 @@ main {
   background-size: cover;
 }
 
+.textmargin {
+  display: inline-block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 970px;
+}
+
 .maintext {
+  display: flex;
+  flex-direction: column;
   position: relative;
-  top: 180px;
+  top: 100px;
+}
 
+.maintext h2 {
+  font-size: 60px;
+  font-weight: lighter;
+}
 
+.maintext p {
+  font-size: 24px;
+  margin-top: -30px;
+}
+
+.titleanchor:hover {
+  text-decoration: underline;
+}
+
+.titleanchor {
+  text-decoration: none;
 }
 
 .nav-container {
