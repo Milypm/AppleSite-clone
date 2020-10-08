@@ -1,7 +1,8 @@
-* {
+body {
   color: #fff;
   font-family: "Lucida Grande", "Lucida Sans Unicode", Helvetica, Arial, Verdana, sans-serif;
   box-sizing: border-box;
+  margin: 0;
 }
 
 main {
@@ -11,10 +12,10 @@ main {
   margin-top: 0;
   background: #fff;
   background-image: url(assets/your-verse.jpg);
-  background-position: 100% 100%;
+  background-position: 65% 100%;
   height: 590px;
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: 1440px 1315px;
 }
 
 .textmargin {
@@ -47,6 +48,7 @@ main {
 
 .titleanchor {
   text-decoration: none;
+  color: #fff;
 }
 
 .nav-container {
@@ -54,18 +56,24 @@ main {
   justify-content: center;
   position: relative;
   top: 90px;
-  width: 100%;
+  border-radius: 5px;
   margin-right: auto;
   margin-left: auto;
+  border: solid 1px darkslategrey;
+  width: 75%;
+  background-image: linear-gradient();
 }
 
 .nav-item {
   box-sizing: border-box;
   width: 105.633px;
   height: 36px;
-  border: solid 1px darkslategrey;
+  border-right: solid 1px darkslategrey;
   background: gray;
   align-items: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .nav-item p {
@@ -74,6 +82,7 @@ main {
 
 .nav-item i {
   margin: 10px auto;
+  font-size: 23px;
 }
 
 .nav-search {
@@ -89,11 +98,17 @@ main {
   background: gray;
 }
 
+.fa-search {
+  display: flex;
+  align-self: center;
+}
+
 .input-cont i {
   position: absolute;
   margin-left: 7px;
-  margin-bottom: 5px;
+  margin-bottom: 10px;
   margin-right: 5px;
+  font-size: 13px;
 }
 
 .belowpics {
@@ -112,3 +127,31 @@ main {
   width: 100%;
 }
 
+.footText {
+  color: black;
+  width: 75%;
+  color: #6e6e6e;
+  line-height: 1.2;
+  font: 11px "Lucida Grande", "Lucida Sans Unicode", Helvetica, Arial, Verdana, sans-serif;
+  margin: 20px auto;
+  letter-spacing: 0.0005px;
+}
+
+.p-width {
+  width: 50%;
+}
+
+.links-right {
+  float: right;
+  display: flex;
+  margin-top: -48px;
+}
+
+.links-right li {
+  list-style-type: none;
+}
+
+.footText a {
+  text-decoration: none;
+  color: #08c;
+}
