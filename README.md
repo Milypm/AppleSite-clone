@@ -5,9 +5,9 @@
 
 > This is our fourth project for Microverse, a clone of a Apple Page (2014 version).
 
-![screenshot](./assets/.png)
-![screenshot](./assets/.png)
-![screenshot](./assets/.png)
+
+![screenshot](./assets/SCREENSHOT1.png)
+![screenshot](./assets/SCREENSHOT2.png)
 
 
 ## Built With
