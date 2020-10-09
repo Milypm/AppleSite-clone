@@ -7,13 +7,12 @@ body {
 
 main {
   text-align: center;
-  padding-top: 0;
-  margin-top: 0;
   background: #fff;
   background-image: url(assets/your-verse.jpg);
-  background-position: 65% 100%;
+  background-position: 70% 100%;
   height: 590px;
   background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .textmargin {
