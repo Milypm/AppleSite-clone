@@ -10,7 +10,8 @@ main {
   background: #fff;
   background-image: url(assets/your-verse.jpg);
   background-position: 70% 100%;
-  height: 590px;
+  height: 480px;
+  width: 100%;
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -56,54 +57,69 @@ main {
   border-radius: 5px;
   margin-right: auto;
   margin-left: auto;
-  border: solid 1px darkslategrey;
+  border: solid 1px #6A6A6A;
+  border-style: inset;
   width: 75%;
-  background-image: linear-gradient(#666, #5e5e5e, #707070, #808080);
+  height: 34px;
+}
+
+.nav-container a {
+  color: #fff;
+  text-decoration: none;
 }
 
 .nav-item {
   box-sizing: border-box;
   width: 15%;
-  height: 36px;
-  border-right: solid 1px darkslategrey;
-  background;
-  align-items: center;
+  border-right: solid 2px #6A6A6A;
   display: flex;
-  align-items: center;
+  align-content: center;
   justify-content: center;
+  background-image: linear-gradient(#666, #5e5e5e, #707070, #808080);
+}
+
+.nav-item:hover {
+  background-image: linear-gradient(#333333, #515151);
+}
+
+.nav-search:hover {
+  background-image: linear-gradient(#666, #5e5e5e, #707070, #808080);
 }
 
 .nav-item p {
   text-align: center;
+  font-size: 13px;
 }
 
 .nav-item i {
+  display: flex;
+  align-items: center;
   margin: 10px auto;
-  font-size: 23px;
+  font-size: 21px;
 }
 
 .nav-search {
-  width: 15%;
-  height: 36px;
+  display: flex;
+  align-items: center;
+  width: 20%;
+  height: 34px;
 }
 
 .search-form {
-  width: 120px;
+  width: 100px;
   height: 20%;
-  margin: 2px auto;
+  padding-top: 3px;
   border-radius: 10px;
-  background: gray;
-}
-
-.fa-search {
-  display: flex;
-  align-self: center;
+  border-color: #808080;
+  border-style: inset;
+  background: transparent;
+  padding-left: 24px;
 }
 
 .input-cont i {
   position: absolute;
   margin-left: 7px;
-  margin-bottom: 10px;
+  margin-top: 7px;
   margin-right: 5px;
   font-size: 13px;
 }
@@ -153,12 +169,9 @@ main {
   display: flex;
   white-space: nowrap;
   list-style-type: none;
-  border-right: 1px solid #ccc;
-  padding-left: 5px;
-  padding-right: 5px;
 }
 
-.footText a:hover {
+.linkR-hover:hover {
   text-decoration: underline;
 }
 
