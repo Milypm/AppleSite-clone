@@ -9,7 +9,7 @@ main {
   text-align: center;
   background: #fff;
   background-image: url(assets/your-verse.jpg);
-  background-position: 70% 100%;
+  background-position: 105% 100%;
   height: 480px;
   width: 100%;
   background-repeat: no-repeat;
@@ -53,7 +53,7 @@ main {
   display: flex;
   justify-content: center;
   position: relative;
-  top: 90px;
+  top: 75px;
   border-radius: 5px;
   margin-right: auto;
   margin-left: auto;
@@ -84,6 +84,10 @@ main {
 
 .nav-search:hover {
   background-image: linear-gradient(#666, #5e5e5e, #707070, #808080);
+}
+
+.apple-icon i {
+  opacity: 0.7;
 }
 
 .nav-item p {
@@ -142,15 +146,27 @@ main {
   display: inline-block;
   color: black;
   color: #6e6e6e;
-  font-size: 10px;
+  font-size: 10.5px;
   line-height: 16px;
-  letter-spacing: 0.2px;
+  letter-spacing: 0;
   width: fit-content;
+  margin-bottom: 15px;
+  margin-left: 35px;
+  margin-right: 35px;
+}
+
+.footText a {
+  text-decoration: none;
+  color: #08c;
+}
+
+.footText a:hover {
+  text-decoration: underline;
 }
 
 .marginleft {
   margin-top: 15px;
-  margin-left: 8%;
+  margin-left: 12%;
 }
 
 .float-right {
@@ -163,6 +179,7 @@ main {
   display: inline-flex;
   position: relative;
   padding: 0;
+  margin-right: 10%;
 }
 
 .links-right li {
@@ -173,9 +190,4 @@ main {
 
 .linkR-hover:hover {
   text-decoration: underline;
-}
-
-.footText a {
-  text-decoration: none;
-  color: #08c;
 }
