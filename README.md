@@ -3,6 +3,7 @@
 
 # Apple Site Clone Page - Microverse Project
 
+
 > This is our fourth project for Microverse, a clone of a Apple Page (2014 version).
 
 
@@ -37,16 +38,16 @@ This projects diplays the video.
 
 ## Authors
 
+👩🏼‍💻 **Mily Puente Morones**
+
+- GitHub: [@Milypm](https://github.com/Milypm)
+- LinkedIn: [LinkedIn](https://www.linkedin.com/in/milypuentem/)
+
 👩🏼‍💻 **Ana Paula Hübner**
 
 - GitHub: [@anapdh](https://github.com/anapdh)
 - Twitter: [@anapdh](https://twitter.com/anapdh)
 - LinkedIn: [LinkedIn](https://www.linkedin.com/in/ana-paula-hübner-7a9484181)
-
-👩🏼‍💻 **Mily Puente Morones**
-
-- GitHub: [@Milypm](https://github.com/Milypm)
-- LinkedIn: [LinkedIn](https://www.linkedin.com/in/milypuentem/)
 
 
 ## 🤝 Contributing
